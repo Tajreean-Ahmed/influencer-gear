@@ -6,6 +6,23 @@ body {
 
 }
 
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.nav-part {
+    padding-top: 20px;
+}
+
+/* Main Section */
 main {
     display: flex;
     flex-direction: column;
@@ -43,6 +60,12 @@ hr {
     border-radius: 100px;
     margin-left: 8px;
     color: white;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .first-section {
@@ -113,4 +136,29 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
     color: white;
+}
+
+/* Media Queries */
+
+/* Mobile device */
+@media screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-section,
+    .logos,
+    .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* img {
+        width: 100%;
+    } */
+
+    .top-section,
+    .logos,
+    .items {
+        flex-direction: column;
+    }
 }
