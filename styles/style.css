@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style and utilities*/
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 30px;
+    color: #575757;
+}
+
+.top-part,
+.bottom-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+hr {
+    border: 1px solid #AAAAAA;
+    margin-bottom: 27px;
+}
+
+.booking-btn {
+    text-decoration: none;
+    background: linear-gradient(88.33deg, #fb4f4f -7.64%, #FF1E1E 145.94%);
+    padding: 10px 20px;
+    border-radius: 100px;
+    margin-left: 8px;
+    color: white;
+}
+
+.first-section {
+    Width: 582px;
+    Height: 270px;
+    padding-top: 90px;
+}
+
+/* Logo Section */
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+/* Popular Section */
+.section-title {
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.item {
+    border: 1px solid white;
+    padding: 14px 17px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.056);
+}
+
+.item .item-banner img {
+    width: 266px;
+    height: 141px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+
+}
+
+.fa-star.empty {
+    color: #aeaeae84;
+    ;
+
+}
+
+.see-more {
+    text-decoration: none;
+    color: #E02C6D;
+    float: right;
+
+}
+
+/* Footer Css */
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+}
